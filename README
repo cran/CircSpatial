@@ -1,0 +1,3 @@
+ActiveTcl is required for function Img, which embeds jpeg graphics in the GUI produced by function CircDataimage().
+
+See the file j.PackageDocumentation.pdf, Section J.1.2 in the installed folder doc for detailed instruction.
