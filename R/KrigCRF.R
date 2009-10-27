@@ -3,7 +3,7 @@ function(krig.x, krig.y, resid.x, resid.y, resid.direction, Model, Nugget=0, Ran
 	Smooth=FALSE, bandwidth, Plot=FALSE, Xlim=NULL, Ylim=NULL, PlotVar=FALSE, ...)
 {
 	# 2008-11-11.1213
-	# select model from covariance models in R package Random Fields functin CovarianceFct
+	# select model from covariance models in R package Random Fields function CovarianceFct
 	# resid.x and resid.y have no NAs
 
 	if( (length(krig.x) != length(krig.y)) | (length(resid.x) != length(resid.y)) | (length(resid.x) != length(resid.direction)) |
